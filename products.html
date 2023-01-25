@@ -30,60 +30,7 @@
   </head>
 
   <body>
-    <div class="flex flex-row bg-qa-blue py-6">
-      <div class="basis-7/12 pl-16">
-        <form>
-          <div class="mt-2">
-            <div class="relative">
-              <input
-                type="search"
-                id="search"
-                class="block w-full p-4 pl-10 text-gray-900 bg-white text-xl font-robotoFlex"
-                placeholder="商品名を入力してください"
-                required
-              />
-              <button
-                type="submit"
-                class="text-white absolute right-2.5 bottom-2.5 bg-qa-blue focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium font-robotoFlex text-sm px-4 py-2 mb-1"
-              >
-                検索
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
-      <div class="basis-4/12 ml-8">
-        <div class="flex flex-row-reverse">
-          <div class="outline outline-offset-4 outline-white rounded-sm">
-            <div class="flex font-robotoFlex">
-              <div class="flex flex-col mr-5 bg-white rounded-md px-4">
-                <p class="mt-0.5 ml-2 text-xl">
-                  1<span class="text-base ml-1 mr-3">商品</span
-                  ><span class="ml-12 text-base"
-                    >(合計<span class="text-xl">2</span>点)</span
-                  >
-                </p>
-                <p class="mt-2 ml-2">
-                  合計　　<span class="text-qa-red text-xl ml-4 font-bold"
-                    >¥5000</span
-                  >(税込)
-                </p>
-              </div>
-              <a href="#">
-                <div class="flex flex-col">
-                  <img
-                    src="../view/img/cart.png"
-                    class="object-contain ml-7 mr-9 w-10 mt-1"
-                  />
-                  <p class="text-white">カートを見る</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <p class="text-sm mt-11 ml-5 font-inter">ホーム　>　「はさみ」の検索結果</p>
+    <p class="text-sm mt-14 ml-5 font-inter">ホーム　>　「はさみ」の検索結果</p>
     <div class="flex mx-6 mt-10">
       <img
         src="../view/img/search.png"
@@ -94,7 +41,7 @@
       </div>
     </div>
     <div>
-      <div class="border-b-2 border-blue-300 w-11/12 ml-12">　</div>
+      <div class="border-t-2 mt-2 border-blue-300 w-11/12 ml-12">　</div>
     </div>
     <div
       class="flex justify-around bg-qa-gray h-14 mt-20 w-11/12 ml-12 font-inter"
@@ -106,10 +53,24 @@
         </p>
         <p class="mt-1.5">1〜20件表示</p>
       </div>
-      <div class="flex mt-3">
-        <p class="ml-16 mt-1">欠品を表示しない</p>
-        <p class="ml-16 mt-1">並べ替え：<span>おすすめ順</span></p>
-        <p class="ml-10 mt-1">表示件数：<span>20件</span></p>
+      <div class="flex">
+        <p class="ml-16 mt-4">欠品を表示しない</p>
+        <div class="flex">
+          <p class="ml-16 mt-4">並べ替え：</p>
+          <select class="m-2 px-2 text-sm text-center font-robotoFlex text-gray-900 bg-gray-50 rounded-sm border border-gray-300">
+            <option>人気順</option>
+            <option>新着順</option>
+          </select>
+        </div>
+        <p class="ml-10 mt-4">表示件数：<span>20件</span></p>
+        <!-- <div class="flex">
+          <p class="ml-10 mt-4">表示件数：</p>
+          <select class="m-2 px-2 text-sm text-center font-robotoFlex text-gray-900 bg-gray-50 rounded-sm border border-gray-300">
+            <option>10件</option>
+            <option>20件</option>
+            <option>50件</option>
+          </select>
+        </div> -->
       </div>
     </div>
     <div class="mr-3">
