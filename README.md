@@ -40,4 +40,23 @@
 
 今回は検証ツールを見ないでデザインカンプからコーディングを行い、分からない部分があれば調べて解決する。
 
-![image](/view/imgScreen/cart.png?raw=true)
+### 完成画像
+
+【フッター】
+![image](./imgScreen/footer.png?raw=true)
+
+【ヘッダーログイン】
+![image](./imgScreen/headerLogin.png?raw=true)
+【ヘッダーログアウト】
+![image](./imgScreen/headerLogout.png?raw=true)
+【カート内商品】
+![image](./imgScreen/cart.png?raw=true)
+【商品検索】
+![image](./imgScreen/products.png?raw=true)
+
+【商品検索空ページ】
+![image](./imgScreen/productsNone.png?raw=true)
+【商品詳細】
+![image](./imgScreen/productsDetail.png?raw=true)
+【商品詳細空ページ】
+![image](./imgScreen/productsDetailNone.png?raw=true)
